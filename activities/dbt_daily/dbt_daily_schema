@@ -1,0 +1,159 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/ChildMindInstitute/DBT_diary_applet/master/activities/dbt_daily/dbt_daily_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "dbt_daily_schema",
+    "skos:prefLabel": "Daily Diary Card",
+    "skos:altLabel": "dbt_daily_schema",
+    "schema:description": "Record your emotions, target behaviors, and DBT skills used for today",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "scoringLogic": {},
+    "ui": {
+        "addProperties": [
+            {
+                "variableName": "emotions_instructions",
+                "isAbout": "emotions_instructions",
+                "isVis": true
+            },
+            {
+                "variableName": "happiness",
+                "isAbout": "happiness",
+                "isVis": true
+            },
+            {
+                "variableName": "sadness",
+                "isAbout": "sadness",
+                "isVis": true
+            },
+            {
+                "variableName": "anxiety_fear",
+                "isAbout": "anxiety_fear",
+                "isVis": true
+            },
+            {
+                "variableName": "anger",
+                "isAbout": "anger",
+                "isVis": true
+            },
+            {
+                "variableName": "shame_guilt",
+                "isAbout": "shame_guilt",
+                "isVis": true
+            },
+            {
+                "variableName": "target_behaviors_instructions",
+                "isAbout": "target_behaviors_instructions",
+                "isVis": true
+            },
+            {
+                "variableName": "suicide_urges",
+                "isAbout": "suicide_urges",
+                "isVis": true
+            },
+            {
+                "variableName": "suicide_act",
+                "isAbout": "suicide_act",
+                "isVis": true
+            },
+            {
+                "variableName": "self_harm_urges",
+                "isAbout": "self_harm_urges",
+                "isVis": true
+            },
+            {
+                "variableName": "self_harm_act",
+                "isAbout": "self_harm_act",
+                "isVis": true
+            },
+            {
+                "variableName": "impulsive_urges",
+                "isAbout": "impulsive_urges",
+                "isVis": true
+            },
+            {
+                "variableName": "impulsive_urges_act",
+                "isAbout": "impulsive_urges_act",
+                "isVis": true
+            },
+            {
+                "variableName": "picking_scratching_urges",
+                "isAbout": "picking_scratching_urges",
+                "isVis": true
+            },
+            {
+                "variableName": "picking_scratching_act",
+                "isAbout": "picking_scratching_act",
+                "isVis": true
+            },
+            {
+                "variableName": "planning_suicide_urges",
+                "isAbout": "planning_suicide_urges",
+                "isVis": true
+            },
+            {
+                "variableName": "planning_suicide_act",
+                "isAbout": "planning_suicide_act",
+                "isVis": true
+            },
+            {
+                "variableName": "purging_urges",
+                "isAbout": "purging_urges",
+                "isVis": true
+            },
+            {
+                "variableName": "purging_act",
+                "isAbout": "purging_act",
+                "isVis": true
+            },
+            {
+                "variableName": "mindfulness_skills",
+                "isAbout": "mindfulness_skills",
+                "isVis": true
+            },
+            {
+                "variableName": "interpersonal_skills",
+                "isAbout": "interpersonal_skills",
+                "isVis": true
+            },
+            {
+                "variableName": "emotion_regulation",
+                "isAbout": "emotion_regulation",
+                "isVis": true
+            },
+            {
+                "variableName": "distress_tolerance",
+                "isAbout": "distress_tolerance",
+                "isVis": true
+            }
+        ],
+        "order": [
+            "emotions_instructions",
+            "happiness",
+            "sadness",
+            "anxiety_fear",
+            "anger",
+            "shame_guilt",
+            "target_behaviors_instructions",
+            "suicide_urges",
+            "suicide_act",
+            "self_harm_urges",
+            "self_harm_act",
+            "impulsive_urges",
+            "impulsive_urges_act",
+            "picking_scratching_urges",
+            "picking_scratching_act",
+            "planning_suicide_urges",
+            "planning_suicide_act",
+            "purging_urges",
+            "purging_act",
+            "mindfulness_skills",
+            "interpersonal_skills",
+            "emotion_regulation",
+            "distress_tolerance"
+        ],
+        "shuffle": false
+    }
+}

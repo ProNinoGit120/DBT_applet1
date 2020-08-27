@@ -1,0 +1,45 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/ChildMindInstitute/DBT_diary_applet/master/activities/dbt_daily_goals/dbt_daily_goals_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "dbt_daily_goals_schema",
+    "skos:prefLabel": "Events and Goals",
+    "skos:altLabel": "dbt_daily_goals_schema",
+    "schema:description": "Record your important events and goals for today",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "scoringLogic": {},
+    "ui": {
+        "addProperties": [
+            {
+                "variableName": "important_events",
+                "isAbout": "important_events",
+                "isVis": true
+            },
+            {
+                "variableName": "daily_goal",
+                "isAbout": "daily_goal",
+                "isVis": true
+            },
+            {
+                "variableName": "goal_achieve",
+                "isAbout": "goal_achieve",
+                "isVis": true
+            },
+            {
+                "variableName": "goal_obstacles",
+                "isAbout": "goal_obstacles",
+                "isVis": "goal_achieve == 2 || goal_achieve == 0"
+            }
+        ],
+        "order": [
+            "important_events",
+            "daily_goal",
+            "goal_achieve",
+            "goal_obstacles"
+        ],
+        "shuffle": false
+    }
+}

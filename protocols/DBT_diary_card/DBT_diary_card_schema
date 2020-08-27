@@ -1,0 +1,40 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/ChildMindInstitute/DBT_diary_applet/master/protocols/DBT_diary_card/DBT_diary_card_context"
+    ],
+    "@type": "reproschema:Protocol",
+    "@id": "DBT_diary_card_schema",
+    "skos:prefLabel": "DBT Daily Diary Card v1.06",
+    "skos:altLabel": "DBT_diary_card_schema",
+    "schema:description": "Record your daily progress with Dialectical Behavorial Therapy",
+    "landingPage": "https://raw.githubusercontent.com/ChildMindInstitute/DBT_diary_applet/master/README.md",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/DBT_diary_applet/master/images/png/DBT.png",
+    "ui": {
+        "addProperties": [
+            {
+                "variableName": "dbt_daily",
+                "isAbout": "dbt_daily",
+                "isVis": true
+            },
+            {
+                "variableName": "dbt_daily_goals",
+                "isAbout": "dbt_daily_goals",
+                "isVis": true
+            },
+            {
+                "variableName": "dbt_behavior_bank",
+                "isAbout": "dbt_behavior_bank",
+                "isVis": true
+            }
+        ],
+        "order": [
+            "dbt_daily",
+            "dbt_daily_goals",
+            "dbt_behavior_bank"
+        ],
+        "shuffle": false
+    }
+}
