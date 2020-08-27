@@ -1,7 +1,7 @@
 {
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-        "https://raw.githubusercontent.com/charlie42/DBT_applet1/master/protocols/DBT_diary_card/DBT_diary_card_context"
+        "https://raw.githubusercontent.com/ChildMindInstitute/DBT_applet1/master/protocols/DBT_diary_card/DBT_diary_card_context"
     ],
     "@type": "reproschema:Protocol",
     "@id": "DBT_diary_card_schema",

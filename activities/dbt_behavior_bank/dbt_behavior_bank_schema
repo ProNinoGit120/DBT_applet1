@@ -1,7 +1,7 @@
 {
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-        "https://raw.githubusercontent.com/charlie42/DBT_applet1/master/activities/dbt_behavior_bank/dbt_behavior_bank_context"
+        "https://raw.githubusercontent.com/ChildMindInstitute/DBT_applet1/master/activities/dbt_behavior_bank/dbt_behavior_bank_context"
     ],
     "@type": "reproschema:Activity",
     "@id": "dbt_behavior_bank_schema",
