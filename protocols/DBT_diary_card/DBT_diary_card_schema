@@ -1,17 +1,17 @@
 {
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-        "https://raw.githubusercontent.com/charlie42/DBT_diary_applet/master/protocols/DBT_diary_card/DBT_diary_card_context"
+        "https://raw.githubusercontent.com/charlie42/DBT_applet1/master/protocols/DBT_diary_card/DBT_diary_card_context"
     ],
     "@type": "reproschema:Protocol",
     "@id": "DBT_diary_card_schema",
     "skos:prefLabel": "DBT Daily Diary Card v1.06",
     "skos:altLabel": "DBT_diary_card_schema",
     "schema:description": "Record your daily progress with Dialectical Behavorial Therapy",
-    "landingPage": "https://raw.githubusercontent.com/ChildMindInstitute/DBT_diary_applet/master/README.md",
+    "landingPage": "https://raw.githubusercontent.com/ChildMindInstitute/DBT_applet1/master/README.md",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/DBT_diary_applet/master/images/png/DBT.png",
+    "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/DBT_applet1/master/images/png/DBT.png",
     "ui": {
         "addProperties": [
             {

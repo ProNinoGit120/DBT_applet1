@@ -1,7 +1,7 @@
 {
     "@context": {
         "@version": 1.1,
-        "dbt_daily_goals": "https://raw.githubusercontent.com/ChildMindInstitute/DBT_diary_applet/master/activities/dbt_daily_goals/items/",
+        "dbt_daily_goals": "https://raw.githubusercontent.com/ChildMindInstitute/DBT_applet1/master/activities/dbt_daily_goals/items/",
         "important_events": {
             "@id": "dbt_daily_goals:important_events",
             "@type": "@id"
