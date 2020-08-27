@@ -1,7 +1,7 @@
 {
     "@context": {
         "@version": 1.1,
-        "dbt_behavior_bank": "https://raw.githubusercontent.com/ChildMindInstitute/DBT_diary_applet/master/activities/dbt_behavior_bank/items/",
+        "dbt_behavior_bank": "https://raw.githubusercontent.com/charlie42/DBT_applet1/master/activities/dbt_behavior_bank/items/",
         "complete_homework": {
             "@id": "dbt_behavior_bank:complete_homework",
             "@type": "@id"
